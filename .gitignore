@@ -2,3 +2,6 @@
 /.idea
 **/*.exe
 **/*.pdb
+/.idea
+**/*.exe
+**/*.pdb
