@@ -9,3 +9,7 @@ ferris-says = "0.3.2"
 [[bin]]
 name = "declare_example"
 path = "src/rust-by-example/04_VariableBindings/4_3_1_Declare.rs"
+
+[[bin]]
+name = "closure_capture_example"
+path = "src/rust-by-example/09_Functions/9_2_1_ClosureCapture.rs"
