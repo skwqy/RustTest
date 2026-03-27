@@ -5,3 +5,7 @@ edition = "2024"
 
 [dependencies]
 ferris-says = "0.3.2"
+
+[[bin]]
+name = "declare_example"
+path = "src/rust-by-example/04_VariableBindings/4_3_1_Declare.rs"
