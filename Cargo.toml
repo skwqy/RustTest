@@ -5,6 +5,8 @@ edition = "2024"
 
 [dependencies]
 ferris-says = "0.3.2"
+features = "0.10.0"
+async-std = { version = "1.13.2", features = ["attributes"] }
 
 [[bin]]
 name = "declare_example"
@@ -13,3 +15,15 @@ path = "src/rust-by-example/04_VariableBindings/4_3_1_Declare.rs"
 [[bin]]
 name = "closure_capture_example"
 path = "src/rust-by-example/09_Functions/9_2_1_ClosureCapture.rs"
+
+[[bin]]
+name = "async_single_webserver"
+path = "src/async/webserver/2AsyncSingleThreadMain.rs"
+
+[[bin]]
+name = "async_webserver"
+path = "src/async/webserver/3AsyncMain.rs"
+
+[[bin]]
+name = "async_webserver_concurrent"
+path = "src/async/webserver/4AsyncConcurrentMain.rs"
