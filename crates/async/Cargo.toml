@@ -1,0 +1,23 @@
+[package]
+name = "async-examples"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+async-std = { version = "1.13.2", features = ["attributes"] }
+
+[[bin]]
+name = "async_single_webserver"
+path = "src/bin/2AsyncSingleThreadMain.rs"
+
+[[bin]]
+name = "async_webserver"
+path = "src/bin/3AsyncMain.rs"
+
+[[bin]]
+name = "async_webserver_concurrent"
+path = "src/bin/4AsyncConcurrentMain.rs"
+
+[[bin]]
+name = "threadpool_webserver"
+path = "src/bin/5ThreadPollMain.rs"

@@ -1,0 +1,19 @@
+[package]
+name = "rust-by-example-notes"
+version = "0.1.0"
+edition = "2024"
+autobins = false
+
+[dependencies]
+features = "0.10.0"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "declare_example"
+path = "src/bin/declare_example.rs"
+
+[[bin]]
+name = "closure_capture_example"
+path = "src/bin/closure_capture_example.rs"
