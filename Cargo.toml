@@ -3,6 +3,6 @@ members = [
     "crates/lessons",
     "crates/rust-by-example",
     "crates/async",
-    "crates/advanceLearning",
+    "crates/advanceLearning", "crates/my-redis",
 ]
 resolver = "3"
